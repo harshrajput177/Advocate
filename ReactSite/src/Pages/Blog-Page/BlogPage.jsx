@@ -1,5 +1,5 @@
 import React  from 'react';  
-import '../Contact-Page/ContactPage.css';
+import '../Blog-Page/BlogPage.css';
 import { motion } from "framer-motion";
 import Comp1  from  '../../Component/Blogs/Blog_1';
 import Comp2 from '../../Component/Blogs/Blog_3';
