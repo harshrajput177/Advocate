@@ -29,8 +29,8 @@ We believe in building trustworthy, empathetic, and dedicated relationships with
 
         </p>
         </div>
-        <div className="Vision-image">
-          <img src={Vision} alt="Image" />
+        <div className="AdvocateAbout-image">
+          <img src={Vision} alt="Image"  className="visionimage-advocate "/>
         </div>
       </div>
 <div className="bottom-paragrapgh-div">

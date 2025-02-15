@@ -43,7 +43,7 @@
   }
  
   
-  .Vision-image img {
+  .AdvocateAbout-image img {
     max-width: 28vw;
     height: auto;
   }
@@ -117,9 +117,8 @@
     text-align: left;
   }
 
-  .image img {
-    max-width: 100%; /* Make image take up full width */
-    height: auto;
+   .AdvocateAbout-image img  {
+    max-width: 70vw; /* Make image take up full width */
     margin-top: 20px; /* Add space between text and image */
   }
 }
