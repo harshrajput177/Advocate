@@ -22,7 +22,7 @@ function AboutC4(){
         As legal professionals, we envision a legal system that is progressive, inclusive, and free from bias. We aim to be at the forefront of legal innovation, adapting to the changing dynamics of the judiciary and continuously evolving our practice to provide the most effective legal solutions. We aspire to build a reputation of trust, excellence, and ethical practice, making a lasting impact in the legal profession and the communities we serve.
         </p>
         </div>
-        <div className="Vision-image">
+        <div className="About-Vision-image">
           <img src={Vision} alt="Business Illustration" />
         </div>
       </div>
