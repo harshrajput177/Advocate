@@ -10,12 +10,12 @@ import { blogContents } from "../Blogs/BlogContent"; // Importing content file
 import '../../Styles/Blog-CSS/Blog_3.css';
 
 const blogs = [
-  { id: 1, image: cirmialImg, title: "HOW TO DRAFT A WILL IN INDIA" },
-  { id: 2, image: CourtMarImg, title: "Discriminatory ADULTERY Laws in India" },
-  { id: 3, image: DivorceImg, title: "Is bigamy really punishable under Hindu Law?" },
-  { id: 4, image: WomanrightImg, title: "Laws for Women in India" },
-  { id: 5, image: MartalRapeImg, title: "Marital Rape in India" },
-  { id: 6, image: FamilyImg, title: "Family" },
+  { id: 1, image: cirmialImg, title: "Understanding Criminal Law in India: A Comprehensive Guide" },
+  { id: 2, image: CourtMarImg, title: "Court Marriages in India: Legal Process and Rights" },
+  { id: 3, image: DivorceImg, title: "Divorce Laws in India: A Legal Perspective" },
+  { id: 4, image: WomanrightImg, title: "Laws Protecting Women in India: A Legal Overview" },
+  { id: 5, image: MartalRapeImg, title: "Marital Rape in India: Legal Challenges and Solutions" },
+  { id: 6, image: FamilyImg, title: "Family Laws in India: A Guide for Advocates and Clients" },
 ];
 
 const BlogDetail = () => {
@@ -29,11 +29,12 @@ const BlogDetail = () => {
   return (
     <div className="Blog4-blog-detail">
       <h1>{blog.title}</h1>
-      <img src={blog.image} alt={blog.title}  className="blog4-image" />
+      <img src={blog.image} alt={blog.title} className="blog4-image" />
       {/* Using dangerouslySetInnerHTML for rich HTML content */}
-      <div  className="Blog4-blog-Content" dangerouslySetInnerHTML={{ __html: blogContent.content }} />
+      <div className="Blog4-blog-Content" dangerouslySetInnerHTML={{ __html: blogContent.content }} />
     </div>
   );
 };
 
 export default BlogDetail;
+
