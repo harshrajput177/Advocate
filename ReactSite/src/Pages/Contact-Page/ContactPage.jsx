@@ -13,7 +13,7 @@ function ContactUs(){
   };
 
 return (
-    <div className="Contact-content">
+    <div className="ContactUs-content">
      <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <Comp1 />
         </motion.div>

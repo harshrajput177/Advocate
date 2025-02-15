@@ -1,0 +1,8 @@
+.BlogPage-content{
+    margin-top: 28.4vh;
+}
+@media(max-width:760px){
+    .BlogPage-content{
+        margin-top: 28.4vh;
+    }
+}

@@ -1,85 +1,154 @@
 body {
-    background-color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .LandingCom3-container {
-   
-    position: relative;
-    padding: 3rem 8vw;
-  }
-  
-  .LandingCom3-container h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .LandingCom3-description {
-    margin-top: 1rem;
-    color: #505050;
-    max-width: 56vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .LandingCom3-services {
-    margin-top: 2.5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26vw, 1fr));
-    gap: 1vw;
-  }
-  
-  .LandingCom3-service-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    background-color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s;
-  }
-  
-  .LandingCom3-service-title {
-    color: #333;
-    font-size: 1.5rem;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-  }
-  
-  .LandingCom3-check-icon {
-    font-size: 2rem;
-  }
-  
-  .LandingCom3-service-description {
-    margin-top: 1rem;
-    color: #666;
-  }
-  
-  .LandingCom3-button {
-    margin-top: 1.5rem;
-    background-color: #C7A26C;
-    color: black;
-    padding: 0.8vw 1vw;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .LandingCom3-button:hover {
-    background-color: #2A6B8A;
-    color: white;
-  } 
+  background-color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
 
-  .LandingCom3-View-All-Button{
-     margin-top: 20px;
-     padding: 15px 25px;
-     border: none;
-     font-size: 1rem;
-     color: white;
-     background-color: #2A6B8A;
+.LandingCom3-container {
+  position: relative;
+  padding: 3rem 8vw;
+}
+
+.LandingCom3-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.LandingCom3-description {
+  margin-top: 1rem;
+  color: #505050;
+  max-width: 56vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LandingCom3-services {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26vw, 1fr));
+  gap: 1vw;
+}
+
+.LandingCom3-service-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.LandingCom3-service-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.LandingCom3-check-icon {
+  font-size: 2rem;
+}
+
+.LandingCom3-service-description {
+  margin-top: 1rem;
+  color: #666;
+}
+
+.LandingCom3-button {
+  margin-top: 1.5rem;
+  background-color: #C7A26C;
+  color: black;
+  padding: 0.8vw 1vw;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.LandingCom3-button:hover {
+  background-color: #2A6B8A;
+  color: white;
+}
+
+.LandingCom3-View-All-Button {
+  margin-top: 20px;
+  padding: 15px 25px;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #2A6B8A;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .LandingCom3-container {
+      padding: 2rem 5vw;
   }
+
+  .LandingCom3-container h2 {
+      font-size: 1.8rem;
+  }
+
+  .LandingCom3-description {
+      max-width: 80vw;
+      font-size: 1rem;
+  }
+
+  .LandingCom3-services {
+      grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+      gap: 2vw;
+  }
+
+  .LandingCom3-service-card {
+      padding: 1rem;
+  }
+
+  .LandingCom3-service-title {
+      font-size: 1.3rem;
+  }
+
+  .LandingCom3-button {
+      padding: 3vw 5vw;
+      font-size: 0.9rem;
+  }
+
+  .LandingCom3-View-All-Button {
+      font-size: 0.9rem;
+      padding: 12px 20px;
+  }
+}
+
+/* Small Mobile View */
+@media screen and (max-width: 480px) {
+  .LandingCom3-container {
+      padding: 1.5rem 4vw;
+  }
+
+  .LandingCom3-container h2 {
+      font-size: 1.5rem;
+  }
+
+  .LandingCom3-description {
+      font-size: 0.9rem;
+      max-width: 90vw;
+  }
+
+  .LandingCom3-services {
+      grid-template-columns: repeat(auto-fit, minmax(90vw, 1fr));
+      gap: 3vw;
+  }
+
+  .LandingCom3-button {
+      padding: 4vw 6vw;
+      font-size: 0.8rem;
+  }
+
+  .LandingCom3-View-All-Button {
+      font-size: 0.8rem;
+      padding: 10px 18px;
+  }
+}

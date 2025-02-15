@@ -13,7 +13,7 @@ function AboutProfile(){
   };
 
 return (
-    <div className="About-content">
+    <div className="AboutProfile-content">
      <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <Comp1 />
         </motion.div>
