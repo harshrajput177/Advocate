@@ -11,12 +11,12 @@ import FamilyImg from '../../image/ai-generated-family-law-figure-of-parents-wit
 
 const BlogSection = () => {
   const blogs = [
-    { id: 1, image: cirmialImg, title: "HOW TO DRAFT A WILL IN INDIA", date: "APRIL 10, 2024", comments: "NO COMMENTS", description: "Navigating Testamentary Waters: Crafting a Comprehensive Will ..." },
-    { id: 2, image: CourtMarImg, title: "Discriminatory ADULTERY Laws in India", date: "JANUARY 28, 2023", comments: "NO COMMENTS", description: "Court marriage in India is a legally recognized process..." },
-    { id: 3, image: DivorceImg, title: "Is bigamy really punishable under Hindu Law?", date: "JANUARY 28, 2023", comments: "NO COMMENTS", description: "Divorce is often a difficult and emotionally challenging decision..." },
-    { id: 4, image: WomanrightImg, title: "Laws for Women in India", date: "APRIL 10, 2024", comments: "NO COMMENTS", description: "Women in India have been granted several legal rights..." },
-    { id: 5, image: MartalRapeImg, title: "Marital Rape in India", date: "JANUARY 28, 2025", comments: "NO COMMENTS", description: "Marital rape, the act of forcing a spouse into non-consensual..." },
-    { id: 6, image: FamilyImg, title: "Family", date: "JANUARY 28, 2025", comments: "NO COMMENTS", description: "Marital rape, the act of forcing a spouse into non-consensual..." },
+    { id: 1, image: cirmialImg, title: "Understanding Criminal Law in India: A Comprehensive Guide", date: "APRIL 10, 2024", comments: "NO COMMENTS", description: "Navigating Testamentary Waters: Crafting a Comprehensive Will ..." },
+    { id: 2, image: CourtMarImg, title: "Court Marriages in India: Legal Process and Rights", date: "JANUARY 28, 2023", comments: "NO COMMENTS", description: "Court marriage in India is a legally recognized process..." },
+    { id: 3, image: DivorceImg, title: "Divorce Laws in India: A Legal Perspective", date: "JANUARY 28, 2023", comments: "NO COMMENTS", description: "Divorce is often a difficult and emotionally challenging decision..." },
+    { id: 4, image: WomanrightImg, title: "Laws Protecting Women in India: A Legal Overview", date: "APRIL 10, 2024", comments: "NO COMMENTS", description: "Women in India have been granted several legal rights..." },
+    { id: 5, image: MartalRapeImg, title: "Marital Rape in India: Legal Challenges and Solutions", date: "JANUARY 28, 2025", comments: "NO COMMENTS", description: "Marital rape, the act of forcing a spouse into non-consensual..." },
+    { id: 6, image: FamilyImg, title: "Family Laws in India: A Guide for Advocates and Clients", date: "JANUARY 28, 2025", comments: "NO COMMENTS", description: "Marital rape, the act of forcing a spouse into non-consensual..." },
   ];
 
   return (

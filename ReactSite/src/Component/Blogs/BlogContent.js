@@ -1,75 +1,211 @@
 export const blogContents = {
   1: {
-    title: "Laws for Women in India",
+    title: "Criminal law in India is a crucial branch of the legal system that deals with offenses",
     content: `
-      <h2>Legal Rights of Women in India</h2>
-      <p>Women in India have several legal protections under the Constitution and various laws to ensure their safety and dignity.</p>
       
-      <h3>1. Fundamental Rights</h3>
-      <ul>
-        <li><strong>Right to Equality:</strong> Article 14 ensures women are treated equally before the law.</li>
-        <li><strong>Right Against Discrimination:</strong> Article 15 prohibits discrimination based on sex.</li>
-      </ul>
-      
-      <h3>2. Laws Against Crimes on Women</h3>
-      <p>Several laws protect women from domestic violence, harassment, and sexual assault.</p>
+    <h2>Criminal law in India</h2>
 
-      <h3>3. Workplace Rights</h3>
-      <p>The <strong>Sexual Harassment of Women at Workplace Act, 2013</strong> ensures a safe work environment.</p>
+Criminal law in India is a crucial branch of the legal system that deals with offenses against individuals and society. 
+It defines various crimes, prescribes punishments, and outlines procedures for prosecution and defense. The primary sources of criminal law in India are the Indian Penal Code (IPC), 1860, the Code of Criminal Procedure (CrPC), 1973, and the Indian Evidence Act, 1872.
 
-      <p>For more details, consult a legal expert.</p>
+Key Components of Criminal Law in India </br>
+
+<h3>1. Indian Penal Code (IPC), 1860</h3>
+
+The IPC is the principal criminal code that defines offenses and prescribes punishments. It is divided into various sections covering different types of crimes, including:
+ </br>
+
+Offenses Against the Human Body: Murder, culpable homicide, assault, and kidnapping. </br>
+
+Offenses Against Property: Theft, robbery, extortion, and fraud. </br>
+
+Offenses Against Women: Rape, domestic violence, dowry-related offenses. </br>
+
+Cyber Crimes: Identity theft, hacking, online fraud. </br>
+
+Economic Offenses: Money laundering, corruption, tax evasion. </br>
+
+<h3>2. Code of Criminal Procedure (CrPC), 1973</h3>
+
+The CrPC lays down the procedural framework for criminal trials, investigations, and prosecution. It defines the roles of police, magistrates, and courts in handling criminal cases. Key aspects include: </br>
+
+Types of Offenses: Cognizable and non-cognizable offenses. </br>
+
+Arrest and Bail Procedures: Rules regarding arrest, detention, and bail. </br>
+
+Trial Processes: Stages of a criminal trial, from filing an FIR to conviction or acquittal. </br>
+
+<h3>3. Indian Evidence Act, 1872</h3>
+
+The Indian Evidence Act governs the admissibility of evidence in criminal cases. It covers: </br>
+
+Types of Evidence: Documentary, oral, and electronic evidence. </br>
+
+Rules of Examination: Examination-in-chief, cross-examination, and re-examination. </br>
+
+Rights of the Accused and Victims </br>
+
+Indian criminal law ensures fair treatment for both accused individuals and victims. Some fundamental rights include:
+
+<h3>Rights of the Accused: </h3>
+
+Right to a fair trial. </br>
+
+Right to legal representation. </br>
+
+Right against self-incrimination. </br>
+
+<h3>Rights of Victims: </h3>
+
+Right to be heard in court. </br>
+
+Right to protection and compensation. </br>
+
+Recent Developments in Criminal Law </br>
+
+India has witnessed significant amendments and new laws to address emerging crimes, such as: </br>
+
+The Criminal Law (Amendment) Act, 2013: Strengthened laws against sexual offenses. </br>
+
+The Information Technology Act, 2000: Addresses cyber crimes and digital fraud. </br>
+
+Anti-Terrorism Laws: Including the Unlawful Activities (Prevention) Act (UAPA). </br>
+
+<h3>Conclusion</h3>
+
+Criminal law in India is designed to maintain social order and deliver justice. Understanding its key components helps individuals, legal professionals, and society navigate legal challenges effectively. Staying informed about legal rights and procedural laws is essential for ensuring justice and upholding the rule of law.
     `
   },
 
 
   2: {
-    title: "Laws for Women in India",
+    title: "Marriage is a significant event in an individual's life, and in India, it can be solemnized ...",
     content: `
-      <h2>Legal Rights of Women in India</h2>
-      <p>Women in India have several legal protections under the Constitution and various laws to ensure their safety and dignity.</p>
-      
-      <h3>1. Fundamental Rights</h3>
-      <ul>
-        <li><strong>Right to Equality:</strong> Article 14 ensures women are treated equally before the law.</li>
-        <li><strong>Right Against Discrimination:</strong> Article 15 prohibits discrimination based on sex.</li>
-      </ul>
-      
-      <h3>2. Laws Against Crimes on Women</h3>
-      <p>Several laws protect women from domestic violence, harassment, and sexual assault.</p>
+    
+<h2>Court Marriages in India: Legal Process and Rights</h2>
+Marriage is a significant event in an individual's life, and in India, it can be solemnized under various personal laws based on religion. However, court marriages provide an alternative for couples who wish to marry irrespective of caste, religion, or creed. Governed by the Special Marriage Act, 1954, court marriages ensure legal recognition of the union without the need for traditional rituals.
 
-      <h3>3. Workplace Rights</h3>
-      <p>The <strong>Sexual Harassment of Women at Workplace Act, 2013</strong> ensures a safe work environment.</p>
+Legal Process of Court Marriage in India </br>
 
-      <p>For more details, consult a legal expert.</p>
+The procedure for court marriage in India is outlined under the Special Marriage Act, 1954. Here is a step-by-step guide: </br>
+
+Notice of Intended Marriage: The couple must submit a written notice to the Marriage Registrar of the district where at least one of them has resided for a minimum of 30 days before filing the notice. </br>
+
+Publication of Notice: The notice is displayed on the Registrar’s office board for 30 days to invite objections from the public. If no valid objections arise, the process moves forward.  </br>
+
+Objection and Inquiry: If someone objects to the marriage, the Registrar will conduct an inquiry to verify the authenticity of the claim. If the objection is invalid, the marriage proceeds as scheduled.</br>
+
+Declaration by the Parties: After the waiting period, both parties, along with three witnesses, must sign a declaration in front of the Marriage Officer.</br>
+
+Marriage Solemnization: The marriage is solemnized in the Registrar’s office, and a marriage certificate is issued, which serves as legal proof of the marriage.</br>
+
+Eligibility Criteria for Court Marriage  </br>
+
+To be eligible for a court marriage under the Special Marriage Act, the couple must meet the following criteria:  </br>
+
+Both parties must be legally competent to marry (minimum age: 21 years for males, 18 years for females).</br>
+
+Neither party should have a living spouse at the time of marriage.</br>
+
+The individuals should be of sound mind and capable of providing valid consent.</br>
+
+The marriage should not violate any prohibited relationships as per the law.</br>
+
+<h3>Legal Rights of Couples Under Court Marriage</h3> </br>
+
+Court marriage offers various legal protections and rights to couples, including: </br>
+
+Legal Recognition: The marriage certificate provides legal proof and ensures legal recognition of the relationship.</br>
+
+Protection from Family and Social Pressure: Since court marriages are legally recognized, they offer protection against forced marriages and honor-related threats.</br>
+
+Right to Inheritance and Property: Legally married couples are entitled to inheritance and property rights under Indian law.</br>
+
+Interfaith and Intercaste Marriage Benefits: The Special Marriage Act allows couples from different religions and castes to marry without converting to another faith.</br>
+
+Legal Recourse in Case of Disputes: In case of separation, divorce, or domestic issues, the marriage is governed by legal provisions ensuring fairness and justice.</br>
+
+<h3>Conclusion</h3>
+
+Court marriage in India is a simple and legal way for couples to get married without religious or societal constraints. It provides a transparent and structured process ensuring legal security and protection. With the growing acceptance of interfaith and intercaste marriages, court marriages continue to be an essential option for couples seeking a legally recognized union without traditional ceremonies. For those considering court marriage, understanding the legal process and rights involved is crucial to making an informed decision.
+
+
     `
   },
 
 
-  3: {
-    title: "Laws for Women in India",
+  6: {
+    title: "Family law in India is a broad legal domain that governs various aspects of family relationships...",
     content: `
-      <h2>Legal Rights of Women in India</h2>
-      <p>Women in India have several legal protections under the Constitution and various laws to ensure their safety and dignity.</p>
-      
-      <h3>1. Fundamental Rights</h3>
-      <ul>
-        <li><strong>Right to Equality:</strong> Article 14 ensures women are treated equally before the law.</li>
-        <li><strong>Right Against Discrimination:</strong> Article 15 prohibits discrimination based on sex.</li>
-      </ul>
-      
-      <h3>2. Laws Against Crimes on Women</h3>
-      <p>Several laws protect women from domestic violence, harassment, and sexual assault.</p>
 
-      <h3>3. Workplace Rights</h3>
-      <p>The <strong>Sexual Harassment of Women at Workplace Act, 2013</strong> ensures a safe work environment.</p>
+    <h3>Family Laws in India: A Guide for Advocates and Clients</h3>
 
-      <p>For more details, consult a legal expert.</p>
+Family law in India is a broad legal domain that governs various aspects of family relationships, including marriage, divorce, adoption, maintenance, and inheritance. 
+These laws are primarily based on religious customs and statutory enactments, ensuring legal protection and justice for individuals and families.
+
+Key Aspects of Family Laws in India </br>
+
+<h3>1. Marriage Laws</h3>
+
+Marriage laws in India are governed by different personal laws depending on the religion of the individuals involved:</br>
+
+Hindu Marriage Act, 1955: Applicable to Hindus, Buddhists, Jains, and Sikhs, outlining conditions for a valid marriage, divorce, and maintenance.</br>
+
+Muslim Personal Law: Based on Sharia law, governing aspects of marriage, divorce, and inheritance among Muslims.</br>
+
+Christian Marriage Act, 1872: Regulates the marriage and divorce of Christians in India.</br>
+
+Special Marriage Act, 1954: Provides for inter-religion and inter-caste marriages without religious customs.</br>
+
+<h3>2. Divorce and Separation</h3>
+
+The grounds and procedures for divorce vary across different personal laws:</br>
+
+Hindu Marriage Act, 1955: Provides for divorce under mutual consent and fault-based grounds such as cruelty, adultery, and desertion.</br>
+
+Muslim Law: Recognizes different forms of divorce like Talaq, Khula, and Mubarat.</br>
+
+Indian Divorce Act, 1869: Governs divorce among Christians.</br>
+
+Parsi Marriage and Divorce Act, 1936: Regulates divorce among Parsis.</br>
+
+Special Marriage Act, 1954: Provides uniform divorce provisions for couples married under this act.</br>
+
+<h3>3. Adoption Laws</h3>
+
+Adoption laws in India differ based on religion:</br>
+
+Hindu Adoption and Maintenance Act, 1956: Allows Hindus to legally adopt children.</br>
+
+Guardians and Wards Act, 1890: Applies to Muslims, Christians, and Parsis, where adoption is not legally recognized but guardianship can be granted.</br>
+
+<h3>4. Inheritance and Succession</h3>
+
+Inheritance laws in India depend on religious customs:</br>
+
+Hindu Succession Act, 1956: Governs inheritance among Hindus.</br>
+
+Muslim Law of Inheritance: Follows Sharia principles.</br>
+
+Indian Succession Act, 1925: Governs inheritance among Christians and Parsis.</br>
+
+<h3>5. Maintenance and Child Custody</h3>
+
+The Code of Criminal Procedure (CrPC) Section 125 provides maintenance rights to wives, children, and parents.
+
+Child custody is determined based on the child’s best interest, with different personal laws governing the specifics.
+
+<h3>Conclusion</h3>
+
+Understanding family laws in India is essential for advocates and clients navigating legal issues related to marriage, divorce, adoption, maintenance, and inheritance. These laws aim to balance traditional customs with modern legal principles, ensuring justice and protection for individuals and families. Seeking professional legal counsel can help in effectively addressing family law matters.
+
+
     `
   },
 
 
   4: {
-    title: "Laws for Women in India",
+    title: "Women in India have been granted several legal rights and protections to ensure their safety,..",
     content: `
        <h2> Legal Rights of Women in India </h2>
             <p> Women in India have been granted several legal rights and protections to ensure their safety, dignity, and equality in society.
@@ -201,8 +337,8 @@ If you or someone you know is facing marital rape or abuse, don’t hesitate to 
 },
 
 
-6: {
-      title: "Laws for Women in India",
+3: {
+      title: "Divorce is often a difficult and emotionally challenging decision...",
       content: `    
           <h2>How to File for a Divorce in India: A Step-by-Step Guide</h2>
 

@@ -5,10 +5,11 @@
   }
   
   .blog-heading {
-    font-size: 28px;
+    font-size: 2rem;
     color: #333;
-    margin-bottom: 20px;
+    margin:40px 0;
   }
+
   
   .blog-container {
     display: flex;
@@ -18,7 +19,7 @@
   }
   
   .blog2-blog-card {
-    width: 25vw;
+    width: 26.5vw;
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -60,9 +61,9 @@
   }
   
   .blog2-blog-button {
-    background-color: #007bff;
+    background-color:#C7A26C ;
     color: white;
-    padding: 8px 12px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -71,6 +72,6 @@
   }
   
   .blog2-blog-button:hover {
-    background-color: #0056b3;
+    background-color: #a38558;
   }
   

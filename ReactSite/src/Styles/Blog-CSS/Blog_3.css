@@ -1,17 +1,23 @@
 .Blog4-blog-detail {
-    text-align: left;
+  position: relative;
+  top: 5vw;
+    text-align: center;
     max-width: 100%;
-    margin: 5vw auto;
-    padding: 20px  7vw;
+    margin: 2.8vw auto;
+    padding: 5vw  7vw;
     background: #fff;
   }
   
   
   .blog4-image {
-    width: 100%;
-    height: auto;
+   max-width: 88vw;
+    max-height: 35vw;
     border-radius: 8px;
     margin-bottom: 15px;
+  }
+
+  .Blog4-blog-detail h1{
+    padding: 2vw 0;
   }
   
   .Blog4-blog-Content{
