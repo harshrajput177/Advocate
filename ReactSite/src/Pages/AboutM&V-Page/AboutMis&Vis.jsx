@@ -13,7 +13,7 @@ function AboutMis_Vis(){
   };
 
 return (
-    <div className="About-content">
+    <div className="AboutMisVis-content">
      <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <Comp1 />
         </motion.div>
