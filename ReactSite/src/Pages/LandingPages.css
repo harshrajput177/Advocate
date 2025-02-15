@@ -1,0 +1,19 @@
+
+.HomeComponent{
+    margin-top: 21.4vh;
+  
+  }
+  
+  @media(max-width:760px){
+      .HomeComponent{
+          margin-top: 30px;
+      }
+  }
+  
+  
+  @media (max-width: 760px) {
+    .CBSEPAGE-fixed-button-left {
+      padding: 13px 16px; /* Adjust padding for smaller screens */
+      top: 54%; /* Adjust vertical position */
+    }
+  }

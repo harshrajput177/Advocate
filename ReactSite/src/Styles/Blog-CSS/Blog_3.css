@@ -1,0 +1,40 @@
+.Blog4-blog-detail {
+    text-align: left;
+    max-width: 100%;
+    margin: 5vw auto;
+    padding: 20px  7vw;
+    background: #fff;
+  }
+  
+  
+  .blog4-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .Blog4-blog-Content{
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+    color: #444;
+  }
+  
+  /* Agar aap specific headings ya lists ko style karna chahte ho */
+  .blog-content h2 {
+    font-size: 22px;
+    text-align: left;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content ul {
+    padding-left: 20px;
+  }
+  
+  .blog-content ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,199 @@
+/* @import url('../Font.css'); */
+
+/* Full-width styles */
+.HomeC10-contact-container {
+  font-family: 'Degularbold';
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: linear-gradient(to right, rgb(241, 241, 241) 50%, #f4f5fc 50%);
+  height: 550px;
+  padding: 20px  70px;
+}
+
+.HomeC10-form-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.HomeC10-form-section h2 {
+  font-family: 'Degularbold';
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.HomeC10-form-section .highlight {
+  color: #2c318f;
+}
+
+.HomeC10-form-section p {
+  font-family: 'PoppinsSemibold';
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #8c8c8c;
+  text-align: left;
+}
+
+.LandingCom6-form input,
+.LandingCom6-form textarea {
+  width: 95%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.LandingCom6-form button {
+  background: #2c318f;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LandingCom6-form button:hover {
+  background: #1f256f;
+}
+
+.HomeC10-contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items:start;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.HomeC10-contact-info div {
+  margin-bottom: 10px;
+}
+
+.HomeC10-contact-info span {
+  font-weight: bold;
+  color: black;
+}
+
+.map-section {
+  display: inline-block;
+  padding: 40px;
+  flex: 1;
+  position: relative;
+  height: 80%;
+}
+
+.map-section iframe {
+  border-radius: 0 10px 10px 0;
+  height: 100%;
+}
+
+.map-section-corner-border_1{
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  width: 300px;
+  height: 222px;
+  border: 45px solid #2C3192;
+  border-top: none;
+  border-left: none;
+  transform: rotateX(180deg);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.map-section-corner-border_2 {
+  position: absolute;
+  bottom: -5px; /* Position it at the bottom */
+  right: 1px; /* Align it to the right */
+  width: 300px;
+  height: 222px;
+  border: 45px solid #2C3192;
+  border-bottom: none; /* Remove the bottom border */
+  border-left: none; /* Remove the left border */
+  z-index: 1;
+  transform: rotateX(180deg);
+  pointer-events: none;
+}
+
+.get-in-touch-phn{
+  display: flex;
+  align-items: center;
+}
+
+/*  */
+@media (max-width: 768px) {
+  .HomeC10-contact-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, white 50%, #f4f5fc 50%);
+  }
+
+  .HomeC10-form-section {
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .LandingCom6-form input,
+  .LandingCom6-form textarea {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .HomeC10-form-section h2 {
+    font-size: 24px;
+  }
+
+  .HomeC10-form-section p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .HomeC10-contact-info {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    font-size: 12px;
+  }
+
+  .map-section {
+    padding: 0 20px;
+    height: 250px;
+  }
+
+  .map-section iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 0;
+  }
+
+  .map-section-corner-border_1,
+  .map-section-corner-border_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .HomeC10-form-section h2 {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .LandingCom6-form input,
+  .LandingCom6-form textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .HomeC10-contact-info span {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,45 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Degular', sans-serif;
+}
+
+#root{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Full-screen overlay */
+.Amission-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:350px;
+  height: 100vh;
+  z-index: 2500; /* Ensure it appears above everything, including the Navbar */ 
+}
+
+ .admission-form-container {
+  background-color: transparent;
+  width: 100% ;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+  animation: ease-in;
+}
+
+@media(max-width:760px){
+
+}

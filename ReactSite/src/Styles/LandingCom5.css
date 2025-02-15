@@ -1,0 +1,123 @@
+.LandingCom5-container {
+    text-align: center;
+    padding: 6.4vw 8vw;
+    margin: 60px 0;
+    background: linear-gradient(to right, #f0dcbd, #bddbe9 );
+  }
+
+  .LandingCom5-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .LandingCom5-Paragrapgh{
+    text-align: left;
+    width: 45%;
+  }
+
+  .LandingCom5-All-ul{
+    text-align: left;
+    width: 30%;
+  }
+  
+  .LandingCom5-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .LandingCom5-description, .LandingCom5-highlight {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .LandingCom5-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .LandingCom5-list li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .LandingCom5-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .LandingCom5-card {
+    border: 1px solid #686767;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .LandingCom5-icon {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .LandingCom5-container {
+      padding: 30px 5vw;
+      width: 90%;
+      /* max-width: 95vw; */
+    }
+
+    .LandingCom5-Paragrapgh{
+      text-align: left;
+      width: 80%;
+    }
+
+    .LandingCom5-All-ul{
+      text-align: left;
+      width: 80%;
+    }
+
+    .LandingCom5-cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .LandingCom5-content{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .LandingCom5-heading {
+      font-size: 1.8rem;
+    }
+  
+    .LandingCom5-description, .LandingCom5-highlight, .LandingCom5-list li {
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    .LandingCom5-card {
+      width: 90%;
+    }
+    
+   
+  }
+  
+  @media (max-width: 480px) {
+    .LandingCom5-heading {
+      font-size: 1.5rem;
+    }
+    
+    .LandingCom5-description, .LandingCom5-highlight, .LandingCom5-list li {
+      text-align: left;
+      font-size: 0.9rem;
+    }
+    
+    .LandingCom5-card {
+      width: 90%;
+    }
+  }

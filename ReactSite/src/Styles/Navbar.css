@@ -1,0 +1,329 @@
+    body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-header {
+    position: fixed; /* Fixes the header at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Takes full width of the screen */
+    z-index: 1400;
+    font-family: 'PoppinsMedium';
+  }
+  
+  .header-top {
+    font-family: 'PoppinsMedium';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7vw;
+    background-color: #444444;
+  }
+  
+  .logo {
+    margin-right:10px ;
+    width: 10vw;
+    height: 16vh;
+  }
+  
+  .contact-info-nav {
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .contact-info-nav span {
+    font-family: 'PoppinsMedium';
+    display: flex;
+    align-items: center; 
+  }
+  
+  .contact-info-nav span a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    gap: 8px;
+  }
+  
+  
+  .enquire-btn {
+    font-family: 'PoppinsSemiBold';
+    position: relative;
+    padding: 20px;
+    background-color: #2A6B8A; /* Initial color */
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    transition: background-color 0.5s ease-in-out; /* Smooth color change */
+    animation: color-flash 1s infinite; /* Background color animation */
+  }
+  
+  .enquire-btn:hover {
+    background-color: #3e7995;
+  } 
+  
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vw;
+    gap: 3%;
+    background-color: #f3f3f3;
+  }
+  
+  .header-nav ul {
+    margin-left: 20px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+  }
+  
+  .header-nav ul li {
+    position: relative;
+  }
+  
+  
+  .Navbar-Phone{
+    position: relative;
+    top: -1px;
+    color: rgb(15, 120, 173);
+  }
+   
+  .Social-media-Icons{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .Social-media-Icons li{
+    list-style: none;
+  }
+
+  .Navbar-icons{
+    list-style: none;
+   color: white;
+  }
+
+  .Navbar-icons:hover{
+    color: #3080a4;
+  }
+
+  .Navbar-mail{
+    font-family: 'DegularMedium';
+    color:  rgb(15, 120, 173);
+  }
+  
+  
+  .header-nav ul li {
+    position: relative;
+    font-family: 'DegularMedium';
+    display: flex; /* Align icon and text together */
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color:black; /* Change the default text color to white */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover */
+  }
+  
+  .dropdown-toggle{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav ul li a {
+    transition: color 0.2s, transform 0.3s;
+    cursor: pointer;
+    font-size: 15px;
+    color: black; /* Links ka color white karna */
+    text-decoration: none; /* Default underline ko hata dena */
+  }
+  
+  .header-nav ul li a:hover{
+    color:#2A6B8A;
+  } 
+  
+  .header-nav ul li:hover .arrow-icon {
+    color: #000000;
+    transform: rotate(180deg); /* Rotate the arrow icon */
+  }
+  
+  .two-numbers{
+    position: relative;
+    gap: 5px;
+    top: -1px;
+  }
+  
+  /* Ensure smooth rotation */
+  .arrow-icon {
+    color: #1e1e1e;
+    transition: transform 0.3s ease; /* Smooth rotation animation */
+  }
+  
+
+  
+  .contact-link{
+    display: flex;
+  }
+
+  .contact-link a{
+    color: white;
+    list-style: none;
+  }
+  
+  
+  .header-nav ul li .dropdown {
+    width: 200px; /* Increased width for better readability */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: left;
+    background-color: #ececec;
+    border: 1px solid #1e1e1e;
+    box-shadow: 0 4px 6px rgba(18, 20, 125, 0.26);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1200;
+  }
+  
+  .header-nav ul li:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .header-nav ul li .dropdown a {
+    font-size: 16px;
+    padding: 12px 15px; /* Increased padding for better spacing */
+    display: block; /* Ensures the hover covers full width */
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .header-nav ul li .dropdown a:hover {
+    background-color: #2A6B8A; /* Correct hover effect */
+    color: white;
+    width: 85%;
+  }
+  
+  .mobile-logo {
+    display: none;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .first-num{
+    position: relative;
+    top: 2.3px;
+  }
+  
+  
+  /* Mobile-specific styles */
+  @media (max-width: 760px) {
+    .header-top {
+      display: none; /* Hide header-top on mobile */
+    }
+
+    .arrow-icon {
+      color: #ffffff;
+    }
+  
+    .nav-header{
+      position: fixed;
+      z-index: 2000;
+      width: 100%;
+    }
+
+    .enquire-btn{
+      display: none;
+    }
+  
+    .header-nav {
+      width: 100%;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #373737;
+    }
+  
+    .mobile-logo {
+      display: block; /* Show logo on mobile */
+      width: 130px; /* Adjust the size of the logo */
+    }
+  
+    .navb-items {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 130px;
+      left: -100%; /* Start off-screen */
+      width: 100%;
+      height: 100vh;
+      background-color: #434343;
+      box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);
+      transition: left 0.3s ease-in-out; /* Smooth left-slide animation */
+      padding: 20px;
+      color: white;
+      z-index: 800;
+    }
+    
+    .navb-items.open {
+      left: -20px; /* Slide in when open */
+      display: flex;
+    }
+    
+  
+    .navb-items.mobileNav-open {
+      display: flex; /* Show the nav items when the mobile menu is open */
+      align-items: start;
+      justify-content: flex-start;
+      text-align: left;
+      height: 100vh;
+      gap: 20px;
+    }
+  
+    .mobile-menu-icon {
+      display: block; /* Show the menu icon on mobile */
+      cursor: pointer;
+    }
+  
+    .header-nav .menu-icon,
+    .header-nav .close-icon {
+      color: rgb(255, 255, 255);
+      margin-right: 25px;
+      font-size: 35px;
+    
+    }
+  
+    .header-nav ul {
+      display: none; /* Hide regular nav links */
+    }
+
+    .header-nav ul li a{
+      font-size: 18px;
+      color: white;
+    }
+  
+    .header-nav ul li {
+      font-size: 18px;
+      color: white;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px){
+    .header-banner{
+      display: none;
+    }
+  }

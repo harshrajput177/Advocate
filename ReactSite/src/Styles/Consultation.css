@@ -1,0 +1,300 @@
+/* Modal container styles */
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../../../public/Poppins-Medium.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../../../public/Poppins-SemiBold.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../../../public/Poppins-Regular.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  
+  .Enquire-modal-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgba(41, 41, 41, 0.929); /* Black background with opacity */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2500;
+    }
+    
+    .Admissionform-Enquire-admission{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:  8px;
+      border-radius: 5px;
+      background-color: #C7A26C;
+    }
+    /* Form container */
+    .Enquire-form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #2A6B8A;
+      border-radius: 10px;
+      width: 100%; /* Smaller form width */
+      max-width: 300px; /* Limit max width */
+      padding: 20px; /* Reduce padding for compact look */
+      position: relative;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+  
+    .Admissionform-Enquire-agreements {
+      display: flex;
+      align-items: center; /* Checkbox aur text ko ek line me laane ke liye */
+      font-size: 0.5rem; /* Thoda bada text */
+      color: #202020;
+      font-family: 'PoppinsSemiBold';
+      margin-top: 5px;
+      margin-bottom: 18px;
+      gap: 5px; /* Checkbox aur text ke beech halka space */
+    }
+
+    .Admissionform-Enquire-agreements p{
+        margin-top: 10px;
+    }
+    
+    .checkbox-Size {
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+    }
+    
+  
+    .closebtn-squire {
+      position: absolute;
+      background-color: #C7A26C;
+      top: 8px;
+      right: 8px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+    }
+  
+  
+    /* Form header */
+    .Enquire-form-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .Enquires-admission-formss{
+      display: flex;
+      padding: 10px;
+      margin: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .Enquire-form-header h2 {
+      left: 4%;
+      position: relative;
+      font-family: 'PoppinsMedium';
+      margin: 0;
+      line-height: 4;
+      font-size: 16px; /* Smaller font size */
+      color:white;
+      letter-spacing: 2px;
+    }
+  
+  
+    .Admissionform-error{
+      position: relative;
+      font-size: 0.6rem;
+      color: red;
+      top: 0;
+    }
+  
+    .Admissionform-SuccessFull{
+      position: relative;
+      color: #202020;
+      top: 0;
+      font-size: 0.6rem;
+    }
+  
+    .Enquire-close-button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: black;
+      position: relative; /* absolute ki jagah relative use karein */
+      top: 0;
+      right: 0;
+    }
+  
+    .Enquire-close-button:hover{
+      background-color: transparent;
+    }
+  
+    .Enquires-admission-formss input {
+      font-family: 'PoppinsRegular';
+      display: flex;
+      margin-top: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 4px; /* Reduce padding */
+      font-size: 14px; /* Smaller input text */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+   .Enquires-admission-formss input::placeholder{
+      font-size: 9px;
+      color: rgb(176, 176, 176);
+    }
+  
+    
+    .Enquire-submit-button {
+      background-color:  #2A6B8A;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 15px; /* Smaller button size */
+      font-size: 14px; /* Smaller font size */
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .Enquire-submit-button:hover {
+      background-color: #2281ac;
+    } 
+  
+    @media (max-width: 760px) {
+      .Enquire-modal-container {
+        align-items: flex-start; /* Align the form higher on the screen */
+        padding-top: 10px;
+      }
+    
+      .Enquire-form-container {
+        top: 30px;
+        width: 60%; /* Use most of the screen width */
+        max-width: none; /* Remove max-width restriction */
+        padding: 15px; /* Adjust padding for mobile */
+        box-shadow: none; /* Simplify the shadow for better visibility */
+        border-radius: 8px;
+      }
+  
+    
+      .Enquire-form-header h2 {
+        line-height: 2;
+        font-size: 0.9rem; /* Slightly larger for readability */
+        letter-spacing: 1px;
+        text-align: center;
+      }
+    
+      .Enquire-close-button {
+        font-size: 12px; /* Larger close button for accessibility */
+      }
+    
+      .Enquires-admission-formss{
+        padding: 20px;
+      }
+    
+      .Enquires-admission-formss input {
+        font-size: 1rem; /* Larger font for inputs */
+        padding: 8px; /* Increase padding for better touch experience */
+        width: 100%; /* Ensure inputs take full width */
+      }
+  
+    
+      .Enquire-submit-button {
+        width: 100%; /* Button spans full width */
+        font-size: 1rem; /* Larger font for better interaction */
+        padding: 12px 0; /* Increase padding for better usability */
+      }
+    
+      .Admissionform-Enquire-admission {
+        padding: 15px; /* Adjust inner padding */
+      }
+  
+      .closebtn-squire {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 22px;
+        height: 22px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+  
+      .Enquire-form-header h2 {
+        line-height: 2;
+        font-size: 0.9rem;
+      }
+      
+      .Enquire-form-container {
+        width: 80%; /* Use 95% of the screen width for compact devices */
+        padding: 10px; /* Reduce padding */
+      }
+      .Enquire-close-button {
+        font-size: 12px; /* Larger close button for accessibility */
+      }
+  
+      .Admissionform-Enquire-admission{
+        padding: 12px 5px;
+      }
+    
+      .Enquire-form-header h2 {
+        margin-bottom: 10px;
+        line-height: 2;
+        font-size: 1rem; /* Slightly smaller header for very small screens */
+      }
+    
+      .Enquires-admission-formss input {
+        font-size: 0.9rem; /* Adjust input font size */
+        padding: 6px; /* Reduce padding for smaller screens */
+      }
+    
+      .Enquire-submit-button {
+        padding: 8px; /* Compact button padding */
+        font-size: 0.8rem;
+      }
+    
+      .Enquire-form-agreement {
+        text-align: center;
+        font-size: 0.5rem; /* Smaller text */
+        color: #202020;
+        line-height: 2;
+        font-family: 'PoppinsSemiBold';
+        margin-left: 8px;
+        margin-top: 0;
+        margin-bottom: 3px
+      }
+  
+      .closebtn-squire {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 22px;
+        height: 22px;
+      }
+    }

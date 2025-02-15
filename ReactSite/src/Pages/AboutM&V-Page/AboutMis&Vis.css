@@ -1,0 +1,8 @@
+.About-content{
+    margin-top: 21.4vh;
+}
+@media(max-width:760px){
+    .About-content{
+        margin-top: 50px;
+    }
+}

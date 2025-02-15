@@ -1,0 +1,125 @@
+/* @import url('../Font.css'); */
+
+.bc-con {
+    margin-top: 60px;
+    scroll-margin-top: 110px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw;
+  }
+
+  .blue-text_C4{
+    font-family: 'PoppinsBold';
+    color: #2C3192;
+  }
+  
+  .sc-con {
+    text-align: left;
+    max-width: 55%;
+  }
+
+  .text-C4-h1{
+    font-family: 'PoppinsBold';
+    margin-bottom: 1.6vw;
+  }
+  
+  .sc-con h1 {
+    font-family: 'PoppinsBold';
+    font-size: 2rem; 
+    line-height: 1.1;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  
+  .sc-con p {
+    font-size: 0.9rem;
+    line-height: 2;
+    font-family: 'Poppins-Regular';
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+  }
+ 
+  
+  .Vision-image img {
+    max-width: 28vw;
+    height: auto;
+  }
+
+  .text-C4-h1 h1 {
+    font-family: 'PoppinsBold';
+    text-align: start;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  .black-text_C4 {
+    font-family: 'PoppinsBold';
+    color: black;
+  }
+
+  .bottom-paragrapgh-div{
+    padding: 0  8vw;
+  }
+
+  .bottom-paragrapgh-div{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+  }
+
+  .bottom-paragrapgh-div span{
+    line-height: 2;
+    width: 80%;
+    text-align: left;
+  }
+
+  .bottom-paragrapgh-div p{
+    font-size: 1.6rem;
+  }
+  .bottom-paragraph{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-family: 'Poppins-Regular';
+  }
+  
+  
+    
+/* Responsive styling */
+@media (max-width: 768px) {
+  .bc-con {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .sc-con {
+    text-align: center; /* Center-align text for smaller screens */
+    max-width: 90%; /* Adjust width for better readability */
+    margin-bottom: 20px;
+  }
+
+  .sc-con h1 {
+    font-size:  1.6rem; /* Adjust font size for smaller screens */
+  }
+
+  .sc-con p {
+    text-align: left;
+    font-size: 0.8rem; /* Slightly smaller text for compact screens */
+  }
+
+  .text-C4-h1{
+    text-align: left;
+  }
+
+  .image img {
+    max-width: 100%; /* Make image take up full width */
+    height: auto;
+    margin-top: 20px; /* Add space between text and image */
+  }
+}

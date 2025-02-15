@@ -1,0 +1,89 @@
+.b-con {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 4vw 7vw;
+  }
+  
+  .s-con {
+    text-align: end;
+    max-width: 51%;
+  
+  }
+  
+  .s-con h1 {
+    font-family: 'Degularbold';
+    font-size: 2rem; 
+    line-height: 1.1;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  
+  .s-con p {
+    font-size: 0.9rem;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'PoppinsMedium';
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+  }
+ 
+  
+  .image img {
+    max-width: 450px;
+    height: auto;
+  }
+
+
+  .text_About_C5{
+    margin-bottom: 30px;
+    text-align: end;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  .black-text_C5 {
+    color: black;
+  }
+  
+    
+  .blue-text_C5{
+    color: #2C3192;
+  }
+/* Responsive styling */
+@media (max-width: 768px) {
+  .b-con {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .s-con {
+    text-align: center; /* Center-align text for smaller screens */
+    max-width: 90%; /* Adjust width for better readability */
+    margin-bottom: 20px;
+  }
+
+  .text_About_C5{
+    text-align: left;
+  }
+
+  .s-con h1 {
+    text-align: left;
+    font-size:  1.6rem; /* Adjust font size for smaller screens */
+  }
+
+  .s-con p {
+    text-align: left;
+    font-size: 0.8rem; /* Slightly smaller text for compact screens */
+  }
+
+  .image img {
+    max-width: 100%; /* Make image take up full width */
+    height: auto;
+    margin-top: 20px; /* Add space between text and image */
+  }
+}

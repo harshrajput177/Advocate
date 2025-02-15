@@ -1,0 +1,148 @@
+/* ContactForm.css */
+/* @import url('../Font.css'); */
+
+.Contact-Box {
+    margin: 60px 0;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .circle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white circles */
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .circle2 {
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .contact-heading {
+    font-family: 'Degularbold';
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .contact-subheading {
+    font-family: 'PoppinsMedium';
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .Contact-Us-Info {
+    max-width:550 ;
+    font-family: 'PoppinsMedium';
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 15px;
+    text-align: left;
+    font-size: 0.8rem;
+    background: #2A6B8A;
+    color: white;
+    padding: 20px 50px;
+    flex: 1;
+    cursor: pointer;
+  }
+
+  .Contact-Us-Info h4{
+    font-family: 'PoppinsMedium';
+    margin-bottom: 8px;
+    font-size: 0.7rem;
+    color: rgb(192, 192, 192);
+  }
+
+  .Contact-Us-Info p{
+    font-size: 0.6rem;
+    gap: 15px;
+    display: flex;
+  }
+
+  .Contact-Us-Info p .contact-Us-icon{
+    font-size: 17px;
+  }
+
+  .Contact-Us-Info a{
+    color: white;
+  }
+  
+  .contact-form {
+    background: white;
+    padding: 30px;
+    flex: 2;
+  }
+
+  .contact-form form textarea{
+    width: 100%;
+    border: 1px solid rgb(211, 211, 211);
+    flex: 1;
+  }
+  
+  .ConatctUs-form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .ConatctUs-form-row input{
+    font-family: 'PoppinsMedium';
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form form  textarea {
+    height: 80px;
+  }
+  
+  .ContactUs-send-button {
+    position: relative;
+    right: -33%;
+    width: 200px;
+    background-color:#2A6B8A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ContactUs-send-button:hover {
+  color: white;
+  }
+  
+@media(max-width:760px){
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}
