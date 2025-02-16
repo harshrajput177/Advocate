@@ -145,4 +145,23 @@
     border-radius: 8px;
     overflow: hidden;
   }
+
+  .ConatctUs-form-row input{
+    font-family: 'PoppinsMedium';
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+   .contact-form form {
+    width: 85%;
+   }
+
+   .ContactUs-send-button {
+    position: relative;
+    right: -24%;
+    width: 150px;
+    font-size: 0.9rem;
+   }
 }
