@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import HomeIcon from '@mui/icons-material/Home';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 function Footer() {
   return (
@@ -53,10 +53,11 @@ function Footer() {
 
         <h3 className='follow-us'>Follow us</h3>
         <div className="social-icons">
-          <a href="https://www.instagram.com/rajrani1722?igsh=dDUxYWQ3cmFkYTE3"><InstagramIcon /></a>
+          <a href="https://www.instagram.com/r.r.c_legalite?igsh=djkyMDIxdW4xNDE4"><InstagramIcon /></a>
           <a href=""><LinkedInIcon /></a>
           <a href="https://www.facebook.com/share/14gEhfyvHU/"><FacebookIcon /></a>
-          <a  href=''><TwitterIcon /></a>
+          <a href="https://t.me/+917827438218"><TelegramIcon /></a>
+        
         </div>
       </div>
 

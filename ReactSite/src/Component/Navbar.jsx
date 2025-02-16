@@ -10,7 +10,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 const Header = ({ toggleForm }) => {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -60,9 +60,9 @@ const Header = ({ toggleForm }) => {
         <div>
           <ul className="Social-media-Icons">
             <li><a href="https://www.facebook.com/share/14gEhfyvHU/"><FacebookIcon className="Navbar-icons" /></a></li>
-            <li><a href="https://www.facebook.com/share/14gEhfyvHU/"><InstagramIcon className="Navbar-icons"/></a></li>
+            <li><a href="https://www.instagram.com/r.r.c_legalite?igsh=djkyMDIxdW4xNDE4"><InstagramIcon className="Navbar-icons"/></a></li>
             <li><LinkedInIcon className="Navbar-icons" /></li>
-            <li><TwitterIcon className="Navbar-icons" /></li>
+            <li><a href="https://t.me/+917827438218"><TelegramIcon   className="Navbar-icons"/></a></li>
           </ul>
         </div>
       </div>

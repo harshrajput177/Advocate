@@ -78,9 +78,9 @@
 /* Small Mobile View */
 @media screen and (max-width: 480px) {
   .Blog4-blog-detail {
-      padding: 5vw 4vw;
-      margin: 6vw auto;
-      top: 27vw;
+      padding: 16vw 4vw;
+      margin: 16vw auto;
+      top: 18vw;
   }
 
   .blog4-image {
